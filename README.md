@@ -1,21 +1,21 @@
 ## UAP v0.1
 #### Endpoint Tanpa Otentikasi
-- regis
+regis
 POST /uap/register
-- login
+login
 POST /uap/login
 
 #### Endpoint yang Memerlukan Otentikasi (JWT)
-liat prodi
+- liat prodi
 GET /uap/prodi
-liat mahasiswa
+- liat mahasiswa
 GET /uap/mahasiswa
-cek mahasiswa dari prodi id
+- cek mahasiswa dari prodi id
 GET /uap/mahasiswa/prodi/{id}
-liat matkul
+- liat matkul
 GET /uap/matkul
-tambah matkul di akunmu
+- tambah matkul di akunmu
 POST /uap/matkul/tambah
-liat matkul tambah
+- liat matkul tambah
 GET /uap/matkul/saya
 
