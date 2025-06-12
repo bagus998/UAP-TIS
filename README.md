@@ -1,8 +1,8 @@
 ## UAP v0.1
 #### Endpoint Tanpa Otentikasi
-regis
+- regis
 POST /uap/register
-login
+- login
 POST /uap/login
 
 #### Endpoint yang Memerlukan Otentikasi (JWT)
